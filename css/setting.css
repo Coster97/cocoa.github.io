@@ -71,3 +71,7 @@
     color: rgba(128, 128, 128, 0.74);
 
 }
+
+.screen-header a{
+    width: 20px;
+}
