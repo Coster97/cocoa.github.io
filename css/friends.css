@@ -54,3 +54,7 @@
 #friends-display-link span:last-child{
     opacity: 0.9;
 }
+
+.screen-header-title{
+    margin-left: 20px;
+}
