@@ -80,7 +80,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 113px;
+    font-size: 108px;
     animation: hideSplashScreen 1s ease-in-out forwards;
     animation-delay: 2s;
     
