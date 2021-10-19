@@ -1,0 +1,77 @@
+.screen-header{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.screen-header h1{
+    font-size: 21px;
+    font-weight: bold;
+    margin-top: 4px;
+    color: rgba(43, 43, 43, 0.904);
+
+}
+.screen-header a{
+    margin-top: 4px;
+    margin-left: 6px;
+    color: rgb(82, 82, 82);
+}
+
+.setting-main1{
+    margin: 10px 25px 0px 25px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: rgb(59, 59, 59);
+    border-bottom: var(--main-border);
+    box-sizing: border-box;
+}
+.setting-main1 div:last-child{
+    margin-bottom: 20px
+}
+
+.setting-main2{
+    margin: 20px 25px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow:scroll;
+    color: rgb(59, 59, 59);
+}
+
+.setting-main1 div span:first-child,
+.setting-main2 div span:first-child{
+    opacity: 0.75;
+    margin-right: 9px;
+}
+
+.fa-exclamation-circle{
+    color: rgb(59, 59, 59);
+    margin-left: -1px;
+}
+.screen-header h1{
+    width: 40px;
+}
+.n {
+    background-color: rgb(255, 81, 0);
+    color: rgba(255, 255, 255, 0.753);
+    padding: 0.2px 2px;
+    font-size: 2px;
+    font-weight: bolder;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.exp{
+    position: absolute;
+    left: 70%;
+    font-weight: bolder;
+    font-size: 14px;
+    color: rgba(128, 128, 128, 0.74);
+
+}
+.screen-header a{
+    width: 20px;
+}
