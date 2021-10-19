@@ -58,3 +58,29 @@
 .screen-header-title{
     margin-left: 20px;
 }
+
+@keyframes hideSplashScreen{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.splash-screen{
+    background-color: rgb(255, 217, 0);
+    position: absolute; z-index: 1;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 113px;
+    animation: hideSplashScreen 1s ease-in-out forwards;
+    animation-delay: 2s;
+    
+
+}
